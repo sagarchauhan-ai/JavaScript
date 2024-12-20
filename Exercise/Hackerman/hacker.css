@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+body {
+    background-color: black;
+    color: limegreen;
+    font-family:"Jersey 15", sans-serif;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    
+  }
+  
+  .button {
+    background-color: #02ffa2;
+    color: black;
+    padding: 10px 10px;
+    margin-bottom:30px ;
+    border: 2px solid #02ffa2;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  .button:hover {
+    background-color: black;
+    color: #02ffa2;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 20px;
+  }
+  
+  .alert {
+    background-color: rgba(233, 115, 115, 0.46);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    display: flex;
+  }
+  .alert-danger {
+    background-color: rgba(102, 255, 0, 0.414);
+    color: rgb(36, 34, 34);
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    animation: blinker .5s linear infinite;
+    display: flex;
+  }
+  
+  .input-field {
+    background-color: black;
+    color: limegreen;
+    border: 4px outset limegreen;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  
+  .input-field:focus {
+    outline:aliceblue;
+    border-color: #00FF00;
+  }
+  
+  
+  /* Make it blink! */
+  .blink {
+  
+    animation: blinker 2s ease-in-out infinite ;
+    font-size: 30px;
+    margin: 15px;
+    padding: 10px;
+    height: 100%;
+    line-height: 1.5;
+   
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity:0;
+    }
+  }
+
+  #prank{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #detail{
+    font-size: 50px;
+    margin: 10px;
+  }
+  

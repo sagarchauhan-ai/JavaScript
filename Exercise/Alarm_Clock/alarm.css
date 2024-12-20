@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+.container{
+    text-align: center;
+}
+.clock{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.alarm{
+    margin-top: 20px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+input{
+    padding: 10px 20px;
+}

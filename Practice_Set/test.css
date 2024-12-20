@@ -1,0 +1,35 @@
+
+.dil{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: #fb92d6;
+    transform: rotate(45deg);
+    position: relative;
+    display: flexbox;
+    box-shadow: 2px 2px  20px #e2afd0 inset    
+}
+
+.dil::before,
+.dil::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: #fb92d6;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 2px 2px  20px #e2afd0 inset    
+}
+
+.dil::before{
+    left: -50px;  
+
+}
+
+.dil::after{
+    top: -50px;
+     
+}
+
+
+

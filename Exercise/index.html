@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <html lang = "en">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width= device-width"/>
+    <title>Webpage</title>
+    <link href="stylus.css" rel = stylesheet text = "text/css"/>
+  </head>
+  
+  <body>
+  <nav class="navigation">
+    <div class="logo">LOGO</div>
+      <ul class="link">
+          <li>Home</li>
+          <li>About Me</li>
+          <li>Menu</li>
+      </ul>
+  </nav>
+
+  Start(outer)
+  <div class = "container">
+  Start(inner)
+    <table class="table">
+        <caption><h1>TABLE</h1></caption>
+        <thead>
+          <tr>
+            <th scope="col">SN</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Founder</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Zuckerberg</td>
+            <td>Facebook</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Steve</td>
+            <td>Jobs</td>
+            <td>Apple</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>Page</td>
+            <td>Google</td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="first">This is HTML insertion methods.</div>
+      End(inner)
+    </div>
+    End(outer)
+   
+    <button class="btn" type="button"  onclick="displayRandomJoke()">Get Joke</button>
+    <div id="joke"></div>
+
+    <button type="button" class="bttn" id="liveAlertBtn">Alert</button>
+    <div id="liveAlertPlaceholder"></div>
+
+
+    <script src = "Tell_Me_a_Joke.js"></script>
+    <script src = "script_DOM.js"></script>
+
+</body>
+</html>
